@@ -22,9 +22,12 @@ h2 {
 }
 p {
     color:  #ffffff;
-
+}
+li {
+    color:  #ffffff;
+}
 .itens {
-	color:  #5F9EA0;
+	color:  #ffffff;
 	text-decoration: underline;
 
 h1 {
@@ -36,7 +39,10 @@ h2 {
 }
 p {
     color:  #ffffff;
-
+}
+li {
+    color:  #ffffff;
+}
 .itens {
 	color: blue;
 	text-decoration: underline;
