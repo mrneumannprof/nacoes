@@ -1,14 +1,12 @@
 body {
-    background-color:#b86a8a;
+    background-color:#000000;
 }
 
 }
-#imagem-principal {
+#capa {
     width: 50%;
-    margin-left: 80%;
-    border: 1px dotted rgb(109, 2, 57);
-    float: left;
-    position: absolute;
+    border: 1px dotted rgb(255, 255, 255);
+    float: center;
 }
 
 .texto-principal {
@@ -16,32 +14,28 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: #600221;
     text-align: center;
 }
 h2 {
-    color: #483D8B;
+    color: #ffffff;
 }
 p {
-    color:  #000000;
+    color:  #ffffff;
 
 .itens {
 	color:  #5F9EA0;
 	text-decoration: underline;
-}
-.texto-principal {
-    margin-right: 20%; 
-}
 
 h1 {
-    color: #D3D3D3;
+    color: #600221;
     text-align: center;
 }
 h2 {
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
 }
 p {
-    color:  #000000;
+    color:  #ffffff;
 
 .itens {
 	color: blue;
