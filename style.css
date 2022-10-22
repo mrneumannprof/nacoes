@@ -29,13 +29,13 @@ li {
 .itens {
 	color:  #ffffff;
 	text-decoration: underline;
-
+}
 h1 {
     color: #600221;
     text-align: center;
 }
 h2 {
-    color: rgb(255, 255, 255)
+    color:  #ffffff;
 }
 p {
     color:  #ffffff;
@@ -47,15 +47,9 @@ li {
 	color: blue;
 	text-decoration: underline;
 }
-table {
-    color:rgb(255, 255, 255)
-    text-align: center;
-}
 th {
-    color:rgb(255, 255, 255)
-    text-align: center;
+    color:  #ffffff;
 }
 td {
-    color:rgb(255, 255, 255)
-    text-align: center;
+    color:  #ffffff;
 }
