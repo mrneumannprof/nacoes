@@ -17,8 +17,11 @@ h1 {
     color: #600221;
     text-align: center;
 }
+h3 {
+    color:  #ffffff;
+}
 h2 {
-    color: #ffffff;
+    color:  #ffffff;
 }
 p {
     color:  #ffffff;
@@ -27,15 +30,8 @@ li {
     color:  #ffffff;
 }
 .itens {
-	color:  #ffffff;
+	color:  blue;
 	text-decoration: underline;
-}
-h1 {
-    color: #600221;
-    text-align: center;
-}
-h2 {
-    color:  #ffffff;
 }
 p {
     color:  #ffffff;
@@ -48,7 +44,7 @@ li {
 	text-decoration: underline;
 }
 th {
-    color:  #ffffff;
+    color:  #600221;
 }
 td {
     color:  #ffffff;
