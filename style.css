@@ -1,11 +1,9 @@
 body {
-    background-color:#000000;
+    background-image:url("fundo33.jpg");
 }
 
-}
 #capa {
-    width: 50%;
-    border: 1px dotted rgb(255, 255, 255);
+    width: 100%;
     float: center;
 }
 
@@ -14,13 +12,17 @@ body {
 }
 
 h1 {
-    color: #600221;
+    color: #ffffff;
     text-align: center;
 }
 h3 {
     color:  #ffffff;
 }
 h2 {
+    color:  #ffffff;
+    text-align: center;
+}
+h4 {
     color:  #ffffff;
 }
 p {
@@ -44,11 +46,15 @@ li {
 	text-decoration: underline;
 }
 th {
-    color:  #600221;
+    color:  #ffffff;
 }
 td {
     color:  #ffffff;
 }
 #repete {
-    color: black
+    color: rgb(50, 0, 27)
+}
+#rodape {
+    width: 100%;
+    float: center;
 }
