@@ -17,6 +17,7 @@ h1 {
 }
 h3 {
     color:  #ffffff;
+    margin-left: 40px;
 }
 h2 {
     color:  #ffffff;
@@ -24,35 +25,28 @@ h2 {
 }
 h4 {
     color:  #ffffff;
+    margin-left: 40px;
 }
 p {
     color:  #ffffff;
+    margin-left: 40px;
+    text-align: justify;
 }
 li {
     color:  #ffffff;
+    margin-left: 40px;
 }
 .itens {
 	color:  blue;
 	text-decoration: underline;
 }
-p {
-    color:  #ffffff;
-}
-li {
-    color:  #ffffff;
-}
-.itens {
-	color: blue;
-	text-decoration: underline;
-}
 th {
     color:  #ffffff;
+    margin-left: 40px;
 }
 td {
     color:  #ffffff;
-}
-#repete {
-    color: rgb(50, 0, 27)
+    margin-left: 40px;
 }
 #mapa {
     width: 100%;
