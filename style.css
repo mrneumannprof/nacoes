@@ -18,6 +18,7 @@ h1 {
 h3 {
     color:  #ffffff;
     margin-left: 40px;
+    margin-right: 20px;
 }
 h2 {
     color:  #ffffff;
@@ -26,19 +27,28 @@ h2 {
 h4 {
     color:  #ffffff;
     margin-left: 40px;
+    margin-right: 20px;
 }
 p {
     color:  #ffffff;
     margin-left: 40px;
     text-align: justify;
+    margin-right: 20px;
 }
 li {
     color:  #ffffff;
     margin-left: 40px;
+    margin-right: 20px;
 }
 .itens {
-	color:  blue;
+	color:  black;
 	text-decoration: underline;
+}
+table {
+    color:  #ffffff;
+    margin-left: 40px;
+    border-color: #ffffff;
+    margin-right: 20px;
 }
 th {
     color:  #ffffff;
@@ -46,10 +56,9 @@ th {
 }
 td {
     color:  #ffffff;
-    margin-left: 40px;
 }
 #mapa {
-    width: 100%;
+    width: 70%;
     float: center;
 }
 #rodape {
