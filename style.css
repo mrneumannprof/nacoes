@@ -1,5 +1,5 @@
 body {
-    background-image:url("fundo33.jpg");
+    background-image:url("imagens/fundo33.jpg");
 }
 
 #capa {
@@ -53,6 +53,10 @@ td {
 }
 #repete {
     color: rgb(50, 0, 27)
+}
+#mapa {
+    width: 100%;
+    float: center;
 }
 #rodape {
     width: 100%;
