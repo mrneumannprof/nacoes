@@ -60,6 +60,7 @@ td {
 #mapa {
     width: 70%;
     float: center;
+    margin-left: 80px;
 }
 #rodape {
     width: 100%;
