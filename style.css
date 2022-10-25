@@ -69,6 +69,13 @@ th {
 td {
     color:  #ffffff;
 }
+#bandeira {
+    width: 5px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
 #mapa {
     width: 70%;
     justify-content: center;
