@@ -71,8 +71,7 @@ td {
 }
 #mapa {
     width: 70%;
-    float: center;
-    margin-left: 80px;
+    justify-content: center;
 }
 #rodape {
     width: 100%;
