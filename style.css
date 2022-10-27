@@ -70,6 +70,9 @@ td {
 #bandeira {
     width: 50px;
 }
+#bandeiras {
+    width: 80px;
+}
 .container {
     display: flex;
     align-items: center;
