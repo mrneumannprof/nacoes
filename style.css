@@ -4,12 +4,15 @@ nav li {
     float: right;
     margin: 10px;
 }
+
 nav a {
     color: #ffffff;
 }
+
 nav a:hover {
     color: rgb(112, 2, 83)
 }
+
 body {
     background-image:url("imagens/fundo33.jpg");
 }
@@ -18,49 +21,64 @@ body {
     width: 100%;
     float: center;
 }
+
 .texto-principal {
     margin-right: 20%; 
 }
+
 h1 {
     color: #ffffff;
     text-align: center;
 }
+
 h3 {
     color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
 }
+
 h2 {
     color:  #ffffff;
     text-align: center;
 }
+
 h4 {
     color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
 }
+
 p {
     color:  #ffffff;
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
 }
+
 li {
     color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
 }
+
 .itens {
 	color:  black;
 	text-decoration: underline;
 }
+
+.tabela {
+    width: 20%;
+    align-items: center;
+}
+
 table {
     color:  #ffffff;
     margin-left: 40px;
     border-color: #ffffff;
     margin-right: 20px;
 }
+
 th {
     color:  #ffffff;
     margin-left: 40px;
