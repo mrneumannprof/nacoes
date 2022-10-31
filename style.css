@@ -25,6 +25,9 @@ body {
 .texto-principal {
     margin-right: 20%; 
 }
+div {
+    margin: 20px;
+}
 
 h1 {
     color: #ffffff;
