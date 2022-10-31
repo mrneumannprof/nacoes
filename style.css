@@ -22,6 +22,11 @@ body {
     float: center;
 }
 
+.titulo {
+    color: #ffffff;
+    text-align: center;
+}
+
 .texto-principal {
     margin-right: 20%; 
 }
@@ -29,23 +34,7 @@ div {
     margin: 20px;
 }
 
-h1 {
-    color: #ffffff;
-    text-align: center;
-}
-
 h3 {
-    color:  #ffffff;
-    margin-left: 40px;
-    margin-right: 20px;
-}
-
-h2 {
-    color:  #ffffff;
-    text-align: center;
-}
-
-h4 {
     color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
