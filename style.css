@@ -30,6 +30,7 @@ body {
 .texto-principal {
     margin-right: 20%; 
 }
+
 div {
     margin: 20px;
 }
@@ -38,7 +39,7 @@ h3 {
     color:  #ffffff;
     margin-left: 40px;
     margin-right: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 p {
