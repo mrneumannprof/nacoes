@@ -10,6 +10,7 @@ nav a {
 }
 
 nav a:hover {
+    font-size: 1.5em;
     color: rgb(112, 2, 83)
 }
 
@@ -25,9 +26,15 @@ body {
 .titulo {
     color: #ffffff;
     text-align: center;
-    font-size: 3em;
-    font-weight: bolder;
+    margin: 30px;
 }
+
+h1 {
+    border: 3px;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
 
 .texto-principal {
     margin-right: 20%; 
