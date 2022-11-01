@@ -25,6 +25,8 @@ body {
 .titulo {
     color: #ffffff;
     text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
 }
 
 .texto-principal {
