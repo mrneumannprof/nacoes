@@ -55,6 +55,7 @@ h3 {
     margin-right: 20px;
     text-align: justify;
     font-weight: bolder;
+    font-size: 1.3em;
 }
 
 p {
@@ -62,7 +63,7 @@ p {
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
-    font-size: 1em;
+    font-size: 1.05em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -72,7 +73,7 @@ li {
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.05em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -100,12 +101,12 @@ th {
     color:  #ffffff;
     margin-left: 40px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.05em;
 }
 td {
     color:  #ffffff;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.05em;
 }
 
 #bandeira {
@@ -126,9 +127,16 @@ td {
     justify-content: center;
 }
 
+.mascotestext {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    margin-right: 15%;
+}
+
 .mascote {
     width: 20%;
-    justify-content: center;
+    justify-content: left;
 }
 
 #rodape {
