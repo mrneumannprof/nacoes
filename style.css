@@ -10,7 +10,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: rgb(112, 2, 83)
 }
 
@@ -63,7 +63,8 @@ p {
     text-align: justify;
     margin-right: 20px;
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 li {
@@ -72,7 +73,8 @@ li {
     margin-right: 20px;
     text-align: justify;
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .itens {
@@ -89,16 +91,21 @@ table {
     margin-left: 40px;
     border-color: #ffffff;
     margin-right: 20px;
+    font-size: 1em;
+    align-items: center;
+    border: 1px white;
 }
 
 th {
     color:  #ffffff;
     margin-left: 40px;
     text-align: center;
+    font-size: 1em;
 }
 td {
     color:  #ffffff;
     text-align: center;
+    font-size: 1em;
 }
 
 #bandeira {
