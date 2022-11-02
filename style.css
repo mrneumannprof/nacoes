@@ -127,16 +127,19 @@ td {
     justify-content: center;
 }
 
-.mascotestext {
+.mascote, mascotestext {
     display: inline-block;
-    vertical-align: middle;
-    width: 70%;
-    margin-right: 15%;
-}
+} 
 
 .mascote {
     width: 20%;
     justify-content: left;
+}
+
+.mascotestext {
+    vertical-align: top;
+    width: 80%;
+    margin-left: 20%;
 }
 
 #rodape {
