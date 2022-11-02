@@ -108,6 +108,12 @@ td {
     width: 70%;
     justify-content: center;
 }
+
+.mascote {
+    width: 30%;
+    justify-content: center;
+}
+
 #rodape {
     width: 100%;
     float: center;
