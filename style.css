@@ -1,8 +1,8 @@
 nav li {
     display: inline;
-    font: 1em sans-serif;
+    font: 1.1em sans-serif;
     float: right;
-    margin: 10px;
+    margin: 20px;
 }
 
 nav a {
@@ -118,6 +118,12 @@ td {
     text-align: center;
 }
 
+.copa {
+    height: 300px;
+    justify-content: center;
+    margin: 20px;
+}
+
 #mapa {
     width: 70%;
     justify-content: center;
@@ -131,7 +137,8 @@ td {
 
 .container {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: center; 
 }
 
 h4 {
