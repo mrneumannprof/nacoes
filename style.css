@@ -118,28 +118,27 @@ td {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-}
 #mapa {
     width: 70%;
     justify-content: center;
 }
 
-.mascote, mascotestext {
-    display: inline-block;
-} 
-
 .mascote {
     width: 20%;
     justify-content: left;
+    margin-left: 20px;
 }
 
-.mascotestext {
-    vertical-align: top;
-    width: 80%;
-    margin-left: 20%;
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+h4 {
+    color:  #ffffff;
+    margin: 20px;
+    text-align: justify;
+    font-size: 1.05em;
 }
 
 #rodape {
