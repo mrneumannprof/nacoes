@@ -130,10 +130,16 @@ td {
 }
 
 #Ranking{
-    background-image: url(imagens/fundo9.webp);
-    width: 800%;
+    color: black;
+    background-image: url(imagens/3267214-fundo-branco-limpo-moderno-grátis-vetor.jpg);
+    width: 100%;
     float: center;
 }
+
+.Ranking{
+    color: black;
+}
+
 .mascote {
     width: 20%;
     justify-content: left;
