@@ -129,6 +129,11 @@ td {
     justify-content: center;
 }
 
+#Ranking{
+    background-image: url(imagens/fundo9.webp);
+    width: 800%;
+    float: center;
+}
 .mascote {
     width: 20%;
     justify-content: left;
