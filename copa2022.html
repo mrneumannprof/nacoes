@@ -34,20 +34,36 @@
             <h4><em>Conheça a bola oficial da Copa do Qatar (Fonte: Claro)</em> <br><br> “Al Rihla” está quase entrando em campo.<br> Traduzindo do árabe, “A Jornada” é a bola da vez. O nome não é por acaso: ela foi desenvolvida para fazer trajetos de modo ainda mais veloz que as suas antecessoras. Os desenhos da Rihla têm toda uma identificação com aspectos da cultura local, como os barcos e a própria bandeira do país, além de ser a primeira bola de um mundial a ser fabricada com materiais sustentáveis à base de água.</h4>
         </div>
         <p>&nbsp;</p>
-        <div>
-            <h1 class="titulo">O MASCOTE DA COPA DO MUNDO DA FIFA QATAR 2022™</h1>
-            <p>A Fifa apresentou o mascote oficial da Copa do Mundo de 2022. Trata-se de La'eeb, um simpático lenço de cabeça masculino tradicional da cultura árabe.</p>
-            <p>No Catar, país sede da Copa, o artefato recebe o nome de Ghutra. O de cor branca, como o escolhido pela Fifa, significa pureza.</p>
-            <p>Segundo a Fifa, a palavra La’eeb significa jogador habilidoso em árabe. A entidade promete disponibilizar aos torcedores GIFs, stickers, papéis de parede e filtros com o mascote em suas redes sociais e plataformas como Facebook, Instagram, Twitter, TikTok, WhatsApp e Snapchat.</p>
-            <p>Ele apareceu pela primeira vez durante a abertura do sorteio dos grupos do mundial. Numa animação de apresentação, passou com um dos apresentadores da festa pelos mascotes das edições anteriores.</p>
-            <p>A inspiração pode ter vindo do próprio Emir do Catar, o xeque Tamim bin Hamad al-Thani. Ele subiu ao palco para ser recebido pelo presidente da Fifa, Gianni Infantino, usando o artefato.</p>
-            (Fonte: Imagem Claro / Texto Ig)
-            <div class="container">
-                <img class="copa" src="mascote/2022 qatar.jpg" alt="Mascote">
-                <img class="copa" src="mascote/Laeeb.jpg" alt="La'eeb">
-                <img class="copa" src="mascote/Ghutra.jpg" alt="Ghutra">
-                <img class="copa" src="mascote/2022 catar.jpg" alt="Mascote">
+        <h1 class="titulo">O MASCOTE DA COPA DO MUNDO DA FIFA QATAR 2022™</h1>
+        <div class="container">
+            <div>
+                <img class="mascot" src="mascote/2022 qatar.jpg" alt="Mascote">
+                <img class="mascot" src="mascote/Laeeb.jpg" alt="La'eeb">
+                <img class="mascot" src="mascote/Ghutra.jpg" alt="Ghutra">
+                <img class="mascot" src="mascote/2022 catar.jpg" alt="Mascote">
             </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mascot");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 10000);    
+                }
+            </script>            
+            <p>A Fifa apresentou o mascote oficial da Copa do Mundo de 2022. Trata-se de La'eeb, um simpático lenço de cabeça masculino tradicional da cultura árabe.<br>
+                <br>No Catar, país sede da Copa, o artefato recebe o nome de Ghutra. O de cor branca, como o escolhido pela Fifa, significa pureza.<br>
+                <br>Segundo a Fifa, a palavra La’eeb significa jogador habilidoso em árabe. A entidade promete disponibilizar aos torcedores GIFs, stickers, papéis de parede e filtros com o mascote em suas redes sociais e plataformas como Facebook, Instagram, Twitter, TikTok, WhatsApp e Snapchat.<br>
+                <br>Ele apareceu pela primeira vez durante a abertura do sorteio dos grupos do mundial. Numa animação de apresentação, passou com um dos apresentadores da festa pelos mascotes das edições anteriores.<br>
+                <br>A inspiração pode ter vindo do próprio Emir do Catar, o xeque Tamim bin Hamad al-Thani. Ele subiu ao palco para ser recebido pelo presidente da Fifa, Gianni Infantino, usando o artefato.<br>
+                <br>(Fonte: Imagem Claro / Texto Ig)</p>
         </div>
         <p>&nbsp;</p>
         <div class="tabela" id="Ranking">
