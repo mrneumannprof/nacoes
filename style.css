@@ -139,6 +139,9 @@ td {
 .Ranking{
     color: black;
 }
+td, li {
+    color: black;
+}
 
 .mascote {
     width: 20%;
