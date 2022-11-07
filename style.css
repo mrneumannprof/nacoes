@@ -2,7 +2,7 @@ nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 20px;
+    margin: 15px;
 }
 
 nav a {
@@ -110,12 +110,15 @@ td {
 }
 
 #bandeira {
-    width: 70px;
+    width: 80px;
+    text-align: center;
+    border: 0.1px solid black;
 }
 
 #bandeiras {
     width: 100px;
     text-align: center;
+    border: 0.1px solid black;
 }
 
 .copa {
