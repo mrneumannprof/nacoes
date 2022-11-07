@@ -2,16 +2,21 @@ nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 15px;
+    margin: 15px 0 0 15px;
+    text-decoration: none;
 }
 
 nav a {
-    color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 nav a:hover {
-    font-size: 1.1em;
-    color: rgb(112, 2, 83)
+    font-size: 18px;
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -21,6 +26,10 @@ body {
 #capa {
     width: 100%;
     float: center;
+}
+
+header { 
+    background-image:url("imagens/fundo9.webp");
 }
 
 .titulo {

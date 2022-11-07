@@ -9,17 +9,21 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <Nav>
-            <ul>
-                <li><a href="extra.html">EXTRA</a></li>>
-                <li><a href="copa2022.html">COPA DO MUNDO 2022</a></li>
-                <li><a href="fotos.html">FOTOS</a></li>
-                <li><a href="disciplina.html">DISCIPLINAS</a></li>
-                <li><a href="projeto.html">PROJETO</a></li>
-                <li><a href="index.html">INICIAL</a></li>
-            </ul>
-        </Nav>
-        <img id="capa" src="imagens/capa3.png">
+        <header>
+            <div class="menu">
+                <Nav>
+                    <ul>
+                        <li><a href="extra.html">EXTRA</a></li>>
+                        <li><a href="copa2022.html">COPA DO MUNDO 2022</a></li>
+                        <li><a href="fotos.html">FOTOS</a></li>
+                        <li><a href="disciplina.html">DISCIPLINAS</a></li>
+                        <li><a href="projeto.html">PROJETO</a></li>
+                        <li><a href="index.html">INICIAL</a></li>
+                    </ul>
+                </Nav>
+            </div>
+            <img id="capa" src="imagens/capa3.png">
+        </header>
         <div>    
             <h1 class="titulo">A COPA DO MUNDO 2022 TERÁ 32 PAÍSES PARTICIPANTES.</h1>
             
@@ -55,7 +59,7 @@
                   myIndex++;
                   if (myIndex > x.length) {myIndex = 1}    
                   x[myIndex-1].style.display = "block";  
-                  setTimeout(carousel, 10000);    
+                  setTimeout(carousel, 8000);    
                 }
             </script>            
             <p>A Fifa apresentou o mascote oficial da Copa do Mundo de 2022. Trata-se de La'eeb, um simpático lenço de cabeça masculino tradicional da cultura árabe.<br>
