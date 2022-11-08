@@ -2,7 +2,7 @@ nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 5px 0 0 15px;
+    margin: 0 0 0 15px;
     text-decoration: none;
 }
 
@@ -20,7 +20,11 @@ nav a:hover {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-image:url("imagens/fundo33.jpg");
+    line-height: 1.5;
+    text-align: center;
 }
 
 #capa {
@@ -30,12 +34,13 @@ body {
 
 header { 
     background-image:url("imagens/fundo9.webp");
+    position:static;
 }
 
 .titulo {
     color: #ffffff;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 h1 {
@@ -48,10 +53,6 @@ h2 {
     border: 3px;
     font-size: 1.5em;
     font-weight: bolder; 
-}
-
-.texto-principal {
-    margin-right: 20%; 
 }
 
 div {
@@ -103,11 +104,13 @@ table {
     margin-right: 20px;
     font-size: 1em;
     align-items: center;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 th {
-    color:  black;
+    color:  black;    
+    text-transform: uppercase;
+    font-weight: bold;
     margin-left: 40px;
     text-align: center;
     font-size: 1.05em;
@@ -183,6 +186,11 @@ h4 {
     margin: 20px;
     text-align: justify;
     font-size: 1.05em;
+}
+
+.vertical {    
+    height: 10px;
+    width: 5px;
 }
 
 #rodape {
