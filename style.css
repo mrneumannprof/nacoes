@@ -25,6 +25,7 @@ body {
     background-image:url("imagens/fundo33.jpg");
     line-height: 1.5;
     text-align: center;
+    font-family: sans-serif;
 }
 
 #capa {
@@ -99,12 +100,11 @@ li {
 
 table {
     color:  black;
-    margin-left: 40px;
+    margin: 0 20px 0 20px;
     border-color: black;
-    margin-right: 20px;
-    font-size: 1em;
+    font-size: 1.05em;
     align-items: center;
-    border: 1px solid black;
+    vertical-align: middle;
 }
 
 th {
@@ -113,18 +113,38 @@ th {
     font-weight: bold;
     margin-left: 40px;
     text-align: center;
+    vertical-align: middle;
     font-size: 1.05em;
+    border: 1px solid rgba(163, 0, 63, 0.588);
+    padding: 10px;
 }
 td {
     color:  black;
     text-align: center;
+    vertical-align: middle;
     font-size: 1.05em;
+    border: 1px solid rgba(163, 0, 63, 0.588);
+    padding: 10px;
+}
+
+.turma {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.espaço {
+    font-size: 0;
+    margin: 0;
+    line-height: 0.5;
 }
 
 #bandeira {
     width: 80px;
     text-align: center;
-    border: 0.1px solid black;
+    border: 0.1px solid black;    
+    margin: 5px;
+    vertical-align: middle;
 }
 
 #carouselExampleInterval{
@@ -141,7 +161,9 @@ td {
 #bandeiras {
     width: 100px;
     text-align: center;
-    border: 0.1px solid black;
+    border: 0.1px solid black;    
+    margin: 5px;
+    vertical-align: middle;
 }
 
 .copa {
@@ -167,6 +189,7 @@ td {
 }
 td, li {
     color: black;
+    vertical-align: middle;
 }
 
 .mascote {
@@ -188,12 +211,53 @@ h4 {
     font-size: 1.05em;
 }
 
-.vertical {    
-    height: 10px;
-    width: 5px;
-}
-
 #rodape {
     width: 100%;
     float: center;
+}
+
+.vertical {
+    height: 250px;
+    width: 2px;
+}
+
+.relative {
+    padding: 20px;
+    border: 3px dotted yellow;
+    background-color: lightcyan;
+    position: relative;
+    color: royalblue;
+}
+
+.alterado {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    height: 10px;
+    width: 140px;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    right:20px;   
+}
+
+.fixed {
+    background-color: lightpink;
+    color:black;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.sticky {
+    background-color:peru;
+    color:brown;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 150px;
 }
