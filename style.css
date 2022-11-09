@@ -56,6 +56,13 @@ h2 {
     font-weight: bolder; 
 }
 
+.titulo2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    border: 1px dotted white;
+}
+
 div {
     margin: 20px;
 }
@@ -177,10 +184,16 @@ td {
     justify-content: center;
 }
 
+#tabela {
+    width: 45%;
+    justify-content: center;
+}
+
 #estadio1 {
     width: 40%;
     justify-content: center;
-    vertical-align: middle;
+    vertical-align: top;
+    color: white;
 }
 
 #estadio2 {
