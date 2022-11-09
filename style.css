@@ -185,8 +185,9 @@ td {
 }
 
 #tabela {
-    width: 45%;
+    width: 49%;
     justify-content: center;
+    margin: 0;
 }
 
 #estadio1 {
@@ -215,6 +216,16 @@ td {
 td, li {
     color: black;
     vertical-align: middle;
+}
+
+.topicos {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .mascote {
