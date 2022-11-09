@@ -2,7 +2,7 @@ nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 0 0 0 15px;
+    margin: 15px 0 0 15px;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ li {
 }
 
 .tabela {
-    align-items: center;
+    align: center;
 }
 
 table {
@@ -110,7 +110,7 @@ table {
     margin: 0 20px 0 20px;
     border-color: black;
     font-size: 1.05em;
-    align-items: center;
+    align: center;
     vertical-align: middle;
 }
 
@@ -188,6 +188,7 @@ td {
     width: 49%;
     justify-content: center;
     margin: 0;
+    align:center;
 }
 
 #estadio1 {
