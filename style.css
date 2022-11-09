@@ -178,13 +178,13 @@ td {
 }
 
 #estadio1 {
-    width: 200px;
+    width: 40%;
     justify-content: center;
     vertical-align: middle;
 }
 
 #estadio2 {
-    width: 1000px;
+    width: 50%;
     justify-content: center;
     vertical-align: middle;
 }
