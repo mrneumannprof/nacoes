@@ -1,0 +1,319 @@
+nav li {
+    display: inline;
+    font: 1.1em sans-serif;
+    float: right;
+    margin: 15px 0 0 15px;
+    text-decoration: none;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(0, 0, 0);
+    font-size: 1.05em;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-size: 1.05em;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
+    line-height: 1.5;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#capa {
+    width: 100%;
+    float: center;
+}
+
+header { 
+    background-image:url("imagens/fundo9.webp");
+    position:static;
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    border: 3px;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+h2 {
+    border: 3px;
+    font-size: 1.5em;
+    font-weight: bolder; 
+}
+
+.titulo2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    border: 1px dotted white;
+}
+
+div {
+    margin: 20px;
+}
+
+h3 {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+p {
+    color:  #ffffff;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itens {
+	color:  black;
+	text-decoration: underline;
+}
+
+.tabela {
+    align: center;
+}
+
+table {
+    color:  white;
+    margin: 0 20px 0 20px;
+    border-color: white solid 2px;
+    font-size: 1.05em;
+    align: center;
+    vertical-align: middle;
+}
+
+th {
+    color:  white;   
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.05em;
+    border: 2px solid white;
+    padding: 10px;
+}
+td {
+    color:  white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.05em;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.turma {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.espaço {
+    font-size: 0;
+    margin: 0;
+    line-height: 0.5;
+}
+
+#bandeira {
+    width: 80px;
+    text-align: center;
+    border: 0.1px solid black;    
+    margin: 5px;
+    vertical-align: middle;
+}
+
+#carouselExampleInterval{
+    size: 30%;
+    width: 50px;
+}
+
+.mascot {
+    height: 300px;
+    justify-content: center;
+    margin: 0px;
+}
+
+#bandeiras {
+    width: 100px;
+    text-align: center;
+    border: 0.1px solid black;    
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.copa {
+    height: 300px;
+    justify-content: center;
+    margin: 20px;
+}
+
+#mapa {
+    width: 70%;
+    justify-content: center;
+}
+
+#tabela {
+    width: 49%;
+    justify-content: center;
+    margin: 0;
+    align:center;
+}
+
+#estadio1 {
+    width: 40%;
+    justify-content: center;
+    vertical-align: top;
+    color: white;
+}
+
+#estadio2 {
+    width: 50%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#Ranking{
+    color:  white;
+    width: 100%;
+    float: center;
+    background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
+}
+
+.Ranking{
+    color:  white;
+}
+td, li {
+    color:  white;
+    vertical-align: middle;
+}
+
+.topicos {
+    color:  #ffffff;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mascote {
+    width: 20%;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h4 {
+    color:  #ffffff;
+    margin: 20px;
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+#rodape {
+    width: 100%;
+    float: center;
+}
+
+.copyright {
+    color:  white;
+    text-align: center;
+    font-size: 1em;
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.vertical {
+    height: 250px;
+    width: 2px;
+}
+
+.relative {
+    padding: 20px;
+    border: 3px dotted yellow;
+    background-color: lightcyan;
+    position: relative;
+    color: royalblue;
+}
+
+.alterado {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    height: 10px;
+    width: 140px;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    right:20px;   
+}
+
+.fixed {
+    background-color: lightpink;
+    color:black;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.sticky {
+    background-color:peru;
+    color:brown;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 150px;
+}
