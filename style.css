@@ -22,7 +22,7 @@ nav a:hover {
 body {
     margin: 0;
     padding: 0;
-    background-image:url("imagens/fundo33.jpg");
+    background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
     line-height: 1.5;
     text-align: center;
     font-family: sans-serif;
@@ -162,7 +162,7 @@ td {
 .mascot {
     height: 300px;
     justify-content: center;
-    margin: 20px;
+    margin: 0px;
 }
 
 #bandeiras {
@@ -206,7 +206,7 @@ td {
 
 #Ranking{
     color: black;
-    background-image: url(imagens/fundob2.jpg);
+    background-image: url(imagens/istockphoto-1255695269-612x612.jpg);
     width: 100%;
     float: center;
 }
@@ -257,7 +257,7 @@ h4 {
     color:  white;
     text-align: center;
     font-size: 1em;
-    border: white solid 1px;
+    border: rgb(0, 0, 0) solid 1px;
     background-color: rgb(0, 0, 0);
     padding: 5px;
 }
