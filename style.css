@@ -19,14 +19,14 @@ nav a:hover {
     color: rgb(255, 255, 255);
 }
 a {
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 1.05em;
     text-decoration: underline;
 }
 
 a:hover {
     font-size: 1.05em;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 body {
@@ -116,31 +116,31 @@ li {
 }
 
 table {
-    color:  black;
+    color:  white;
     margin: 0 20px 0 20px;
-    border-color: black;
+    border-color: white solid 2px;
     font-size: 1.05em;
     align: center;
     vertical-align: middle;
 }
 
 th {
-    color:  black;    
+    color:  white;   
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 40px;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid rgba(163, 0, 63, 0.588);
+    border: 2px solid white;
     padding: 10px;
 }
 td {
-    color:  black;
+    color:  white;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid rgba(163, 0, 63, 0.588);
+    border: 2px solid white;
     padding: 10px;
 }
 
@@ -215,17 +215,17 @@ td {
 }
 
 #Ranking{
-    color: black;
-    background-image: url(imagens/white-gold-geometric-pattern-background-vector_53876-140726.webp);
+    color:  white;
     width: 100%;
     float: center;
+    background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
 }
 
 .Ranking{
-    color: black;
+    color:  white;
 }
 td, li {
-    color: black;
+    color:  white;
     vertical-align: middle;
 }
 
