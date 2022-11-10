@@ -303,19 +303,7 @@ h4 {
     color:  white;
     text-align: center;
     font-size: 1em;
-}
-
-footer {
-    text-align: center;
-    font-size: 13px;
     border: white solid 1px;
     background-color: rgb(0, 0, 0);
     padding: 5px;
 }
-
-#rodape {
-    width: 5%;
-    margin: 20cm bottom;
-    margin-bottom: 5mm;
-}
-
