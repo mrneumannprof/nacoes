@@ -42,7 +42,8 @@ body {
     font-family: sans-serif;    
     background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
     background-size: 100%;
-    background-repeat:repeat-y;    
+    background-repeat:repeat-y;
+    background-attachment: fixed;    
     background-position: left top;
 }
 
