@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     box-sizing: 0;
 }
 nav li {
@@ -9,6 +9,7 @@ nav li {
     float: right;
     margin: 15px 0 0 15px;
     text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 nav a {
@@ -17,26 +18,30 @@ nav a {
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 nav a:hover {
     font-size: 18px;
     color: rgb(0, 0, 0);
+    padding: 0 0 0 0;
 }
 a {
     color: white;
     font-size: 1.05em;
     text-decoration: underline;
+    padding: 0 0 0 0;
 }
 
 a:hover {
     font-size: 1.05em;
     color: black;
+    padding: 0 0 0 0;
 }
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     line-height: 1.5;
     text-align: center;
     font-family: sans-serif;    
@@ -103,6 +108,7 @@ p {
     font-size: 1.05em;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-indent: 80px;
 }
 
 li {
