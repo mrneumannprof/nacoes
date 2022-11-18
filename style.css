@@ -15,7 +15,7 @@ nav li {
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
@@ -25,17 +25,17 @@ nav a {
 
 nav a:hover {
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 0 0 0 0;
 }
-a {
+td a {
     color: white;
     font-size: 1.05em;
     text-decoration: underline;
     padding: 0 0 0 0;
 }
 
-a:hover {
+td a:hover {
     font-size: 1.05em;
     color: black;
     padding: 0 0 0 0;
