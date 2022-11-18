@@ -7,9 +7,11 @@ nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 15px 0 0 15px;
+    margin: 0 0 0 0;
     text-decoration: none;
-    padding: 0 0 0 0;
+    padding: 0 0 0 0;    
+    background-image:url("imagens/fundo9.webp");
+    position:static
 }
 
 nav a {
@@ -58,7 +60,6 @@ body {
 }
 
 header { 
-    background-image:url("imagens/fundo9.webp");
     position:static;
 }
 
