@@ -3,15 +3,17 @@
     padding: 0 0 0 0;
     box-sizing: 0;
 }
+nav {
+    background-image:url("imagens/fundo9.webp");
+    position:static
+}
 nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 0 0 0 0;
+    margin: 15px 0 0 15px;
     text-decoration: none;
     padding: 0 0 0 0;    
-    background-image:url("imagens/fundo9.webp");
-    position:static
 }
 
 nav a {
@@ -284,7 +286,8 @@ h4 {
     font-size: 1em;
     border: rgb(0, 0, 0) solid 1px;
     background-color: rgb(0, 0, 0);
-    padding: 5px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .vertical {
