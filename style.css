@@ -80,7 +80,7 @@ h1 {
 
 h2 {
     border: 3px;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bolder; 
 }
 
@@ -101,7 +101,7 @@ h3 {
     margin-right: 20px;
     text-align: justify;
     font-weight: bolder;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 p {
@@ -109,7 +109,7 @@ p {
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
-    font-size: 1.05em;
+    font-size: 1.1em;
     margin-top: 5px;
     margin-bottom: 5px;
     text-indent: 50px;
@@ -120,7 +120,7 @@ li {
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
-    font-size: 1.05em;
+    font-size: 1.1em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -150,7 +150,7 @@ th {
     margin-left: 40px;
     text-align: center;
     vertical-align: middle;
-    font-size: 1.05em;
+    font-size: 1.1em;
     border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
@@ -158,7 +158,7 @@ td {
     color:  black;
     text-align: center;
     vertical-align: middle;
-    font-size: 1.05em;
+    font-size: 1.1em;
     border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
