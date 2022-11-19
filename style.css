@@ -4,8 +4,10 @@
     box-sizing: 0;
 }
 nav {
-    background-image:url("imagens/fundo9.webp");
-    position:static
+    background-image:url("imagens/FUNDO01.png");
+    position:absolute;
+    top: 110px;
+    margin: 0 auto;
 }
 nav li {
     display: inline;
@@ -49,7 +51,7 @@ body {
     line-height: 1.5;
     text-align: center;
     font-family: sans-serif;    
-    background-image:url("imagens/01-FIFA-World-Cup-Qatar-2022-PPT-Background-by-SlidesCorner.jpg");
+    background-image:url("imagens/FUNDO01.png");
     background-size: 100%;
     background-repeat:no-repeat;
     background-attachment: fixed;    
