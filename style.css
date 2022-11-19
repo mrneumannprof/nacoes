@@ -4,9 +4,8 @@
     box-sizing: 0;
 }
 nav {
-    background-image:url("imagens/FUNDO01.png");
     position:absolute;
-    top: 110px;
+    top: 0;
     margin: 0 auto;
 }
 nav li {
@@ -29,11 +28,11 @@ nav a {
 
 nav a:hover {
     font-size: 18px;
-    color: white;
+    color: rgb(149, 0, 67);
     padding: 0 0 0 0;
 }
 td a {
-    color: white;
+    color: black;
     font-size: 1.05em;
     text-decoration: underline;
     padding: 0 0 0 0;
@@ -41,7 +40,7 @@ td a {
 
 td a:hover {
     font-size: 1.05em;
-    color: black;
+    color: rgb(149, 0, 67);
     padding: 0 0 0 0;
 }
 
@@ -68,7 +67,7 @@ header {
 }
 
 .titulo {
-    color: #ffffff;
+    color: rgb(149, 0, 67);
     text-align: center;
     margin: 10px;
 }
@@ -86,7 +85,7 @@ h2 {
 }
 
 .titulo2 {
-    color: #ffffff;
+    color: black;
     text-align: center;
     margin: 10px;
     border: 1px dotted white;
@@ -97,7 +96,7 @@ div {
 }
 
 h3 {
-    color:  #ffffff;
+    color:  rgb(149, 0, 67);
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -106,7 +105,7 @@ h3 {
 }
 
 p {
-    color:  #ffffff;
+    color:  black;
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
@@ -117,7 +116,7 @@ p {
 }
 
 li {
-    color:  #ffffff;
+    color:  black;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -136,31 +135,31 @@ li {
 }
 
 table {
-    color:  white;
+    color:  black;
     margin: 0 20px 0 20px;
-    border-color: white solid 2px;
+    border-color: rgb(149, 0, 67) solid 2px;
     font-size: 1.05em;
     align: center;
     vertical-align: middle;
 }
 
 th {
-    color:  white;   
+    color:  black;   
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 40px;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid white;
+    border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
 td {
-    color:  white;
+    color:  black;
     text-align: center;
     vertical-align: middle;
     font-size: 1.05em;
-    border: 2px solid white;
+    border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
 
@@ -225,7 +224,7 @@ td {
     width: 40%;
     justify-content: center;
     vertical-align: top;
-    color: white;
+    color: black;
 }
 
 #estadio2 {
@@ -235,21 +234,21 @@ td {
 }
 
 #Ranking{
-    color:  white;
+    color:  black;
     width: 100%;
     float: center;
 }
 
 .Ranking{
-    color:  white;
+    color:  black;
 }
 td, li {
-    color:  white;
+    color:  black;
     vertical-align: middle;
 }
 
 .topicos {
-    color:  #ffffff;
+    color:  black;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -271,7 +270,7 @@ td, li {
 }
 
 h4 {
-    color:  #ffffff;
+    color:  black;
     margin: 20px;
     text-align: justify;
     font-size: 1.05em;
