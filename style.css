@@ -168,10 +168,26 @@ td {
     border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
+
+.mapa {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .mapa li {
     display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
 }
-#site {
+
+.mapa h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.site {
     width: 20%;
     align:center;
     margin: 0 0 0 0;
