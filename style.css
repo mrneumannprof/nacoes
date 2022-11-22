@@ -169,6 +169,13 @@ td {
     padding: 10px;
 }
 
+.site {
+    width: 40%;
+    align:center;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
 .turma {
     font-weight: bold;
     text-align: center;
