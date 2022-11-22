@@ -169,10 +169,11 @@ td {
     padding: 10px;
 }
 
-.site {
-    width: 10%;
+#site {
+    width: 20%;
     align:center;
     margin: 0 0 0 0;
+    justify-content: center;
 }
 
 .turma {
