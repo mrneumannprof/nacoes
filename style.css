@@ -170,30 +170,30 @@ td {
 }
 
 .mapa {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 .mapa li {
     display: inline-block;
     text-align: center;
-    width: 20%;
+    width: 19.5%;
     vertical-align: middle;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    margin: 0 1%;
+    padding: 5px 5px;
     box-sizing: border-box;
 }
 
 .mapa h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: center;
 }
 
 .site {
     width: 100%;
     align:center;
-    margin: 0 0 0 0;
     justify-content: center;
 }
 
