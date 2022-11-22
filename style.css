@@ -168,7 +168,9 @@ td {
     border: 2px solid rgb(149, 0, 67);
     padding: 10px;
 }
-
+.mapa li {
+    display: inline-block;
+}
 #site {
     width: 20%;
     align:center;
