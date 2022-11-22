@@ -178,8 +178,11 @@ td {
 .mapa li {
     display: inline-block;
     text-align: center;
-    width: 25%;
+    width: 20%;
     vertical-align: middle;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 .mapa h3 {
@@ -188,7 +191,7 @@ td {
 }
 
 .site {
-    width: 20%;
+    width: 50%;
     align:center;
     margin: 0 0 0 0;
     justify-content: center;
