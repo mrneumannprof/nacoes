@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(149, 0, 67);
     padding: 0 0 0 0;
 }
@@ -43,7 +43,7 @@ td a {
 }
 
 td a:hover {
-    font-size: 1.05em;
+    font-size: 1.06em;
     color: rgb(149, 0, 67);
     padding: 0 0 0 0;
 }
