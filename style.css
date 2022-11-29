@@ -75,6 +75,7 @@ header {
     color: rgb(120, 3, 56);
     text-align: center;
     padding: 10px 0px 30px 0px;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -96,6 +97,7 @@ h2 {
     border: 1px dotted rgb(120, 3, 56);
     font-weight: bolder;
     vertical-align: middle;
+    text-transform: uppercase;
 }
 
 div {
@@ -487,14 +489,14 @@ footer {
     transition:opacity 0.4s linear;
 }
 
-.galeria2 {
+.galery {
     display:inline-block;
     border: 1px solid white;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.galeria2 img {
+.galery img {
     opacity: 0.7;
     cursor: pointer;
     width: 150px;
@@ -502,7 +504,7 @@ footer {
     margin-right: 0px;
 }
 
-.galeria2 img:hover {
+.galery img:hover {
     opacity: 1;
 }
 
