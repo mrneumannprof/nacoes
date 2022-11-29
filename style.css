@@ -145,7 +145,7 @@ li {
 
 table {
     color:  black;
-    margin: 0 20px 0 20px;
+    margin: 0 auto;
     border-color: rgb(149, 0, 67) solid 2px;
     font-size: 1.05em;
     align: center;
