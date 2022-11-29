@@ -29,65 +29,26 @@
         </div>
         &nbsp;
         <main>
-            <ul class="galeria">
-                <li><a href="#img1"><img src="foto/FeiradasNacoes (1).jpg" class="min"></a></li>
-                <li><a href="#img2"><img src="foto/FeiradasNacoes (2).jpg" class="min"></a></li>
-                <li><a href="#img3"><img src="foto/FeiradasNacoes (3).jpg" class="min"></a></li>
-                <li><a href="#img4"><img src="foto/FeiradasNacoes (4).jpg" class="min"></a></li>
-            </ul>
-            <div class="lbox" id="img1">
-                <div class="box_img">
-                    <a href="#img4" class="btn" id="prev">&#171;</a>
-                    <a href="" class="btn" id="close">X</a>
-                    <img src="foto/FeiradasNacoes (1).jpg">
-                    <a href="#img2" class="btn" id="next">&#187;</a>
-                </div>
+           <div>
+                <h1 class="titulo">Galeria de Fotos</h1>
             </div>
-            <div class="lbox" id="img2">
-                <div class="box_img">
-                    <a href="#img1" class="btn" id="prev">&#171;</a>
-                    <a href="" class="btn" id="close">X</a>
-                    <img src="foto/FeiradasNacoes (2).jpg">
-                    <a href="#img3" class="btn" id="next">&#187;</a>
-                </div>
-            </div>
-            <div class="lbox" id="img3">
-                <div class="box_img">
-                    <a href="#img2" class="btn" id="prev">&#171;</a>
-                    <a href="" class="btn" id="close">X</a>
-                    <img src="foto/FeiradasNacoes (3).jpg">
-                    <a href="#img4" class="btn" id="next">&#187;</a>
-                </div>
-            </div>
-            <div class="lbox" id="img4">
-                <div class="box_img">
-                    <a href="#img3" class="btn" id="prev">&#171;</a>
-                    <a href="" class="btn" id="close">X</a>
-                    <img src="foto/FeiradasNacoes (4).jpg">
-                    <a href="#img1" class="btn" id="next">&#187;</a>
-                </div>
-            </div>     
+            &nbsp;
+            <section class="galeria2">
+                    <img src="foto/FeiradasNacoes (1).jpg" alt="FeiradasNacoes (1)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (2).jpg" alt="FeiradasNacoes (2)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (3).jpg" alt="FeiradasNacoes (3)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (4).jpg" alt="FeiradasNacoes (4)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (5).jpg" alt="FeiradasNacoes (5)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (6).jpg" alt="FeiradasNacoes (6)" onclick="monstrarImagem(this)">
+                    <img src="foto/FeiradasNacoes (7).jpg" alt="FeiradasNacoes (7)" onclick="monstrarImagem(this)">
+            </section>
+            <section class="conteiner">
+                    <span onclick="this.parentElement.style.display='none'" class="btnFechar">&times;</span>
+                    <img id="imagemGrande">
+            </section>
+            <script type="text/javascript" src="scripts.js"></script>
+            &nbsp;
         </main>
-        &nbsp;
-        <div>
-            <h1 class="titulo">Galeria de Fotos</h1>
-        </div>
-        &nbsp;
-        <section class="galeria2">
-                <img src="foto/FeiradasNacoes (1).jpg" alt="FeiradasNacoes (1)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (2).jpg" alt="FeiradasNacoes (2)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (3).jpg" alt="FeiradasNacoes (3)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (4).jpg" alt="FeiradasNacoes (4)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (5).jpg" alt="FeiradasNacoes (5)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (6).jpg" alt="FeiradasNacoes (6)" onclick="monstrarImagem(this)">
-                <img src="foto/FeiradasNacoes (7).jpg" alt="FeiradasNacoes (7)" onclick="monstrarImagem(this)">
-        </section>
-        <section class="conteiner">
-                <span onclick="this.parentElement.style.display='none'" class="btnFechar">&times;</span>
-                <img id="imagemGrande">
-        </section>
-        <script type="text/javascript" src="scripts.js"></script>
-        &nbsp;
         <footer>
             <img id="rodape" src="imagens/RODAPÉ PROJETO1.png" alt="CCMPR Projeto Interdiciplinar 2022 _ Copa das Nações">
             <p class="copyright">&copy; Copyright Profª Mariana Ribinski Neumann<br>Pensamento Computacional 2022</p>
