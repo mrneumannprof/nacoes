@@ -498,7 +498,7 @@ footer {
 
 .galery img {
     opacity: 0.7;
-    cursor: pointer;
+    cursor: zoom-in;
     width: 150px;
     margin: 2px;
     margin-right: 0px;
