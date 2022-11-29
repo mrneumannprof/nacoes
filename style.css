@@ -486,3 +486,10 @@ footer {
     opacity: 1;
     transition:opacity 0.4s linear;
 }
+
+.galeria2 {
+    display:inline-block;
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 10px;
+}
